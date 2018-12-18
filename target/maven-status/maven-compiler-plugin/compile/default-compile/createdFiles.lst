@@ -1,0 +1,11 @@
+api\stenden\data\model\ImagePOJO.class
+api\stenden\lib\DatabaseConfig.class
+api\stenden\data\model\ImageAnnotated.class
+api\stenden\res\LaptopController.class
+api\stenden\data\jpa\ImageJpa.class
+api\stenden\data\Image.class
+api\stenden\lib\ApplicationInitializer.class
+api\stenden\lib\WebConfig.class
+api\stenden\service\ImageService.class
+api\stenden\data\jpa\ImageJpaRepository.class
+api\stenden\data\ImageRepository.class
