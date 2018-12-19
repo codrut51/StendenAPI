@@ -25,11 +25,11 @@ import java.util.List;
 
 @Repository
 @Entity
-//@AllArgsConstructor
+@AllArgsConstructor
 @NoArgsConstructor
 public class ImageJpa implements ImageRepository {
 
-    private SessionFactory sessionFactory;
+//    private SessionFactory sessionFactory;
     @PersistenceContext(unitName = "entityManagerFactory")
     private EntityManager em;
 
@@ -43,6 +43,8 @@ public class ImageJpa implements ImageRepository {
     public Image getById(Long id) {
 //        Session sess = sessionFactory.getCurrentSession();
 //        ImageAnnotated imageAnnotated = sess.load(ImageAnnotated.class, id);
+        System.out.println("Here I am!!");
+        System.out.println(em.isOpen());
         CriteriaBuilder criteriaBuilder = em.getCriteriaBuilder();
         CriteriaQuery<ImageAnnotated> query = criteriaBuilder.createQuery(ImageAnnotated.class);
         Root<ImageAnnotated> from = query.from(ImageAnnotated.class);
@@ -56,10 +58,10 @@ public class ImageJpa implements ImageRepository {
     @Override
     @Transactional
     public List<Image> getImages() {
-        System.out.println(sessionFactory);
-        Session sess = sessionFactory.getCurrentSession();
-        List<Image> images = sess.createQuery("from images").list();
+//        System.out.println(sessionFactory);
+//        Session sess = sessionFactory.getCurrentSession();
+//        List<Image> images = sess.createQuery("from images").list();
 
-        return images;
+        return null;
     }
 }

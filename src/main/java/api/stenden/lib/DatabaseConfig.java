@@ -35,7 +35,7 @@ import java.util.Properties;
 @Slf4j
 @Configuration
 @EnableTransactionManagement // Required for Hibernate
-@EnableJpaRepositories("api.steden.data")
+@EnableJpaRepositories("api.stenden.data")
 @NoArgsConstructor
 public class DatabaseConfig {
 
@@ -103,12 +103,12 @@ public class DatabaseConfig {
     }
 
     @Bean
-    public LocalContainerEntityManagerFactoryBean entityManagerFactory(DataSource dataSource, JpaVendorAdapter jpaVendorAdapter) {
-        System.out.println(dataSource.toString());
-        System.out.println(jpaVendorAdapter.toString());
+    public LocalContainerEntityManagerFactoryBean entityManagerFactory() {
+//        System.out.println(dataSource.toString());
+//        System.out.println(jpaVendorAdapter.toString());
         LocalContainerEntityManagerFactoryBean entityManagerFactoryBean = new LocalContainerEntityManagerFactoryBean();
-        entityManagerFactoryBean.setDataSource(dataSource);
-        entityManagerFactoryBean.setJpaVendorAdapter(jpaVendorAdapter);
+        entityManagerFactoryBean.setDataSource(dataSource());
+        entityManagerFactoryBean.setJpaVendorAdapter(jpaVendorAdapter());
         entityManagerFactoryBean.setPackagesToScan("api.stenden.data.model");
         return entityManagerFactoryBean;
     }

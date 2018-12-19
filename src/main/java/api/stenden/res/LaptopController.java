@@ -8,6 +8,7 @@ import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+import java.awt.*;
 import java.util.List;
 
 
@@ -31,7 +32,8 @@ public class LaptopController {
         DatabaseConfig db = new DatabaseConfig();
 //        System.out.println(db.dataSource());
 //        System.out.println(db.sessionFactory(db.dataSource()).getObject());
-        imageService = new ImageService(new ImageJpa());
+        System.out.println(db.entityManagerFactory());
+        imageService = new ImageService(new ImageJpa(db.entityManagerFactory().getObject().createEntityManager()));
 //         return laptopService.getJpaRepository();
 //        return laptops;
         return imageService.getById(1L);
