@@ -2,49 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b3b18ba1-e1e1-480f-ad30-3720f681452b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/api/stenden/data/jpa/ImageJpa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/api/stenden/data/jpa/ImageJpa.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/api/stenden/lib/DatabaseConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/api/stenden/lib/DatabaseConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/api/stenden/res/LaptopController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/api/stenden/res/LaptopController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cargo/configurations/tomcat9x/conf/server.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/cargo/configurations/tomcat9x/conf/server.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cargo/configurations/tomcat9x/conf/tomcat-users.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/cargo/configurations/tomcat9x/conf/tomcat-users.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cargo/configurations/tomcat9x/logs/localhost_access_log..2018-12-18.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cargo/configurations/tomcat9x/webapps/ROOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/cargo/configurations/tomcat9x/webapps/ROOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cargo/configurations/tomcat9x/webapps/ROOT/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/target/cargo/configurations/tomcat9x/webapps/ROOT/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cargo/configurations/tomcat9x/webapps/ROOT/META-INF/maven/api.stenden/web/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/cargo/configurations/tomcat9x/webapps/ROOT/META-INF/maven/api.stenden/web/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cargo/configurations/tomcat9x/webapps/ROOT/WEB-INF/classes/api/stenden/data/jpa/ImageJpa.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/cargo/configurations/tomcat9x/webapps/ROOT/WEB-INF/classes/api/stenden/data/jpa/ImageJpa.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cargo/configurations/tomcat9x/webapps/ROOT/WEB-INF/classes/api/stenden/data/model/ImageAnnotated.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/cargo/configurations/tomcat9x/webapps/ROOT/WEB-INF/classes/api/stenden/data/model/ImageAnnotated.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cargo/configurations/tomcat9x/webapps/ROOT/WEB-INF/classes/api/stenden/data/model/ImagePOJO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/cargo/configurations/tomcat9x/webapps/ROOT/WEB-INF/classes/api/stenden/data/model/ImagePOJO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cargo/configurations/tomcat9x/webapps/ROOT/WEB-INF/classes/api/stenden/lib/DatabaseConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/cargo/configurations/tomcat9x/webapps/ROOT/WEB-INF/classes/api/stenden/lib/DatabaseConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cargo/configurations/tomcat9x/webapps/ROOT/WEB-INF/classes/api/stenden/res/LaptopController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/cargo/configurations/tomcat9x/webapps/ROOT/WEB-INF/classes/api/stenden/res/LaptopController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cargo/configurations/tomcat9x/webapps/cargocpc/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/cargo/configurations/tomcat9x/webapps/cargocpc/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cargo/installs/tomcat-9.0.13/apache-tomcat-9.0.13/bin/catalina.sh" beforeDir="false" afterPath="$PROJECT_DIR$/target/cargo/installs/tomcat-9.0.13/apache-tomcat-9.0.13/bin/catalina.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cargo/installs/tomcat-9.0.13/apache-tomcat-9.0.13/bin/ciphers.sh" beforeDir="false" afterPath="$PROJECT_DIR$/target/cargo/installs/tomcat-9.0.13/apache-tomcat-9.0.13/bin/ciphers.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cargo/installs/tomcat-9.0.13/apache-tomcat-9.0.13/bin/configtest.sh" beforeDir="false" afterPath="$PROJECT_DIR$/target/cargo/installs/tomcat-9.0.13/apache-tomcat-9.0.13/bin/configtest.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cargo/installs/tomcat-9.0.13/apache-tomcat-9.0.13/bin/daemon.sh" beforeDir="false" afterPath="$PROJECT_DIR$/target/cargo/installs/tomcat-9.0.13/apache-tomcat-9.0.13/bin/daemon.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cargo/installs/tomcat-9.0.13/apache-tomcat-9.0.13/bin/digest.sh" beforeDir="false" afterPath="$PROJECT_DIR$/target/cargo/installs/tomcat-9.0.13/apache-tomcat-9.0.13/bin/digest.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cargo/installs/tomcat-9.0.13/apache-tomcat-9.0.13/bin/makebase.sh" beforeDir="false" afterPath="$PROJECT_DIR$/target/cargo/installs/tomcat-9.0.13/apache-tomcat-9.0.13/bin/makebase.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cargo/installs/tomcat-9.0.13/apache-tomcat-9.0.13/bin/setclasspath.sh" beforeDir="false" afterPath="$PROJECT_DIR$/target/cargo/installs/tomcat-9.0.13/apache-tomcat-9.0.13/bin/setclasspath.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cargo/installs/tomcat-9.0.13/apache-tomcat-9.0.13/bin/shutdown.sh" beforeDir="false" afterPath="$PROJECT_DIR$/target/cargo/installs/tomcat-9.0.13/apache-tomcat-9.0.13/bin/shutdown.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cargo/installs/tomcat-9.0.13/apache-tomcat-9.0.13/bin/startup.sh" beforeDir="false" afterPath="$PROJECT_DIR$/target/cargo/installs/tomcat-9.0.13/apache-tomcat-9.0.13/bin/startup.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cargo/installs/tomcat-9.0.13/apache-tomcat-9.0.13/bin/tool-wrapper.sh" beforeDir="false" afterPath="$PROJECT_DIR$/target/cargo/installs/tomcat-9.0.13/apache-tomcat-9.0.13/bin/tool-wrapper.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cargo/installs/tomcat-9.0.13/apache-tomcat-9.0.13/bin/version.sh" beforeDir="false" afterPath="$PROJECT_DIR$/target/cargo/installs/tomcat-9.0.13/apache-tomcat-9.0.13/bin/version.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/api/stenden/data/jpa/ImageJpa.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/api/stenden/data/jpa/ImageJpa.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/api/stenden/data/model/ImageAnnotated.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/api/stenden/data/model/ImageAnnotated.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/api/stenden/data/model/ImagePOJO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/api/stenden/data/model/ImagePOJO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/api/stenden/lib/DatabaseConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/api/stenden/lib/DatabaseConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/api/stenden/res/LaptopController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/api/stenden/res/LaptopController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/web-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/web-1.0-SNAPSHOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/web-1.0-SNAPSHOT/WEB-INF/classes/api/stenden/data/jpa/ImageJpa.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/web-1.0-SNAPSHOT/WEB-INF/classes/api/stenden/data/jpa/ImageJpa.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/web-1.0-SNAPSHOT/WEB-INF/classes/api/stenden/data/model/ImageAnnotated.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/web-1.0-SNAPSHOT/WEB-INF/classes/api/stenden/data/model/ImageAnnotated.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/web-1.0-SNAPSHOT/WEB-INF/classes/api/stenden/data/model/ImagePOJO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/web-1.0-SNAPSHOT/WEB-INF/classes/api/stenden/data/model/ImagePOJO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/web-1.0-SNAPSHOT/WEB-INF/classes/api/stenden/lib/DatabaseConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/web-1.0-SNAPSHOT/WEB-INF/classes/api/stenden/lib/DatabaseConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/web-1.0-SNAPSHOT/WEB-INF/classes/api/stenden/res/LaptopController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/web-1.0-SNAPSHOT/WEB-INF/classes/api/stenden/res/LaptopController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cargo/configurations/tomcat9x/logs/localhost_access_log..2018-12-19.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/cargo/configurations/tomcat9x/logs/localhost_access_log..2018-12-19.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -55,7 +14,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/api/stenden/res/LaptopController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
@@ -142,11 +101,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/api/stenden/lib/DatabaseConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="110" column="70" selection-start-line="110" selection-start-column="70" selection-end-line="110" selection-end-column="70" />
+            <state relative-caret-position="392">
+              <caret line="54" column="57" lean-forward="true" selection-start-line="54" selection-start-column="57" selection-end-line="54" selection-end-column="57" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -227,9 +186,9 @@
         <option value="$PROJECT_DIR$/src/main/java/api/stenden/data/ImageRepository.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/api/stenden/service/ImageService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/api/stenden/lib/DatabaseConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/api/stenden/data/jpa/ImageJpa.java" />
         <option value="$PROJECT_DIR$/src/main/java/api/stenden/res/LaptopController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/api/stenden/lib/DatabaseConfig.java" />
       </list>
     </option>
   </component>
@@ -453,14 +412,14 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="0" />
       <window_info anchor="bottom" id="TODO" order="1" weight="0.3286119" />
-      <window_info anchor="bottom" id="Terminal" order="2" weight="0.3286119" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="2" visible="true" weight="0.3286119" />
       <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" />
       <window_info anchor="bottom" id="Debug" order="6" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
-      <window_info active="true" anchor="bottom" id="Run" order="9" visible="true" weight="0.4022663" />
+      <window_info anchor="bottom" id="Run" order="9" weight="0.4022663" />
       <window_info anchor="bottom" id="Messages" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Maven" order="1" weight="0.27181208" />
@@ -584,16 +543,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/api/stenden/lib/DatabaseConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="110" column="70" selection-start-line="110" selection-start-column="70" selection-end-line="110" selection-end-column="70" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/api/stenden/data/jpa/ImageJpa.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
@@ -608,6 +557,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="34" column="52" selection-start-line="34" selection-start-column="52" selection-end-line="34" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/api/stenden/lib/DatabaseConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="54" column="57" lean-forward="true" selection-start-line="54" selection-start-column="57" selection-end-line="54" selection-end-column="57" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
